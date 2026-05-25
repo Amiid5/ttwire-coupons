@@ -43,7 +43,7 @@ export default async function RootLayout({
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${lora.variable} ${poppins.variable} ${inter.variable} h-full antialiased`}>
+      className={`${spaceGrotesk.variable} ${lora.variable} ${poppins.variable} ${inter.variable} h-full antialiased overflow-x-hidden`}>
       <body className="min-h-full flex flex-col bg-base text-content overflow-x-hidden selection:bg-primary/20 selection:text-primary">
         <AllStoreInitializer data={data} />
         <Header />
