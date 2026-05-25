@@ -4,7 +4,7 @@ import { SearchAutocomplete } from "./SearchAutocomplete";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden border-b border-b-border bg-surface min-h-fit pt-16 pb-16 md:pt-28 md:pb-28 text-white flex flex-col justify-center items-center px-4">
+    <section className="relative  border-b border-b-border bg-surface min-h-fit pt-16 pb-16 md:pt-28 md:pb-28 text-white flex flex-col justify-center items-center px-4">
       <div className="absolute w-[450px] h-[350px] blur-3xl bg-primary/12 top-0 right-0 pointer-events-none"></div>
       <div className="absolute w-[450px] h-[350px] blur-3xl bg-accent/12 left-0 bottom-0 pointer-events-none"></div>
 
