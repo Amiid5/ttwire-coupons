@@ -5,12 +5,10 @@ import Image from "next/image";
 import { LuTag, LuArrowRight } from "react-icons/lu";
 import StarRating from "./ui/rating";
 import Link from "next/link";
-import { useStoresStore } from "@/store/useStoresStore";
 
 function AllStoresCard() {
   const { stores, totalItems, isEmpty } = useFilteredStores();
-  const allStores = useStoresStore((state) => state.allStores);
-  console.log("allStores length:", allStores.length);
+
   return (
     <section className="bg-base px-2 py-6 lg:p-6 text-white">
       <div className="max-w-[1440px] mx-auto">

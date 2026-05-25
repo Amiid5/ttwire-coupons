@@ -1,5 +1,5 @@
 "use client";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { LuShieldCheck, LuTag, LuTrendingUp, LuZap } from "react-icons/lu";
 
 interface Props {
