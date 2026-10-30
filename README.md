@@ -235,8 +235,10 @@ Every store page includes:
 
 ## Author
 
-**Amiid5**
-GitHub: [@Amiid5](https://github.com/Amiid5)
+Built by **Amin Ahmed Mohamed**.
+
+- Website: [amiid.vercel.app](https://amiid.vercel.app)
+- GitHub: [@Amiid5](https://github.com/Amiid5)
 
 ---
 
